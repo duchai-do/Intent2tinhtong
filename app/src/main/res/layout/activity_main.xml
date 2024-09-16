@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="Giải phương trình bậc 1"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/edta"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nhập A: " />
+
+    <EditText
+        android:id="@+id/edtb"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nhập B:" />
+
+    <Button
+        android:id="@+id/btnkq"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#A49696"
+        android:text="Ket Qua"
+        android:textColor="#000000" />
+
+</LinearLayout>
